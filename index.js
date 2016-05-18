@@ -240,11 +240,11 @@ function (
     //                    selected.layer.renderer = new SimpleRenderer({
     //                        symbol: new MeshSymbol3D({
     //                            symbolLayers: [
-    //                               new FillSymbol3DLayer({
-    //                                   material: {
-    //                                       color: 'white'
-    //                                   }
-    //                               })
+    //                                new FillSymbol3DLayer({
+    //                                    material: {
+    //                                        color: 'white'
+    //                                    }
+    //                                })
     //                            ]
     //                        })
     //                    });
@@ -261,7 +261,7 @@ function (
     //            // Keep a reference of the newly selected graphic. Get objectid.
     //            selected = result.graphic;
     //            var id = selected.attributes[selected.layer.objectIdField];
-    //            
+    //         
     //            // Assign a unique value renderer that highlights the one and only "selected" graphic.
     //            selected.layer.renderer = new UniqueValueRenderer({
     //                field: selected.layer.objectIdField,
